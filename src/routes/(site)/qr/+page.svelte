@@ -1,7 +1,7 @@
 <script lang="ts">
     import Page from "$lib/components/Page.svelte";
     import { QRCodeImage } from "svelte-qrcode-image";
-    let site_url ="http://localhost:5173/"
+    let site_url ="http://monkeyy.net/"
     import Text from "$lib/components/Text.svelte";
 
 
