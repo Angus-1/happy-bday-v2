@@ -7,11 +7,11 @@
         image: 'monkey.gif'
     },
     {
-        name: 'test',
-        message: "happybday1",
-        message2: "morestuff" ,
-        link: 'link.com',
-        image: ''
+        name: 'Daniel',
+        message: " Happy birthday Charlie barbie,",
+        message2: "You still owe me those mf Idaho potatoes from last month or sth, WHERE IS MY DAMN POTATOES" ,
+        link: '',
+        image: 'potato.png'
     },
    
 ]

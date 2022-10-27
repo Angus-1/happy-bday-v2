@@ -136,7 +136,7 @@
 		list-style: none;
 		padding: 0;
 		margin: 0 auto;
-		width:60%;
+		width:80%;
 		color:  #FFEADB;
 		font-size: 1.5rem;
     font-weight:bold;
