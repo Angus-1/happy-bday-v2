@@ -76,7 +76,7 @@
 >
   <div class="text-center">
     <div class="content">
-      <h2 class="text_shadows">Happy Bday Spooktacular Charles!🎃</h2> 
+      <h2 class="text_shadows">Happy Spooktacular Bday Charles!🎃</h2> 
     </div>
   </div>
 </div>
@@ -94,7 +94,6 @@
   
 /*---------------------------------body css -----------------------------------------*/
   #bg {
-    /* The image used background-image: url("/assets/images/background1.jpg"); */
     background: linear-gradient(-45deg, #973831,#882b25,#5C2420, #4d1d1a);
 	background-size: 400% 400%;
 	animation: gradient 10s ease-in-out infinite alternate;

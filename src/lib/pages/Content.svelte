@@ -38,12 +38,6 @@
 
 
 <!-----------------confetti click should encapsulate page---------------------------->
-<div class="box" on:click={moveConfetti}>
-  {#each things as thing}
-    <div class="mover" style="left: {thing.x}px; top: {thing.y}px">
-      <Confetti y={[-0.5, 0.5]} fallDistance=20px amount=10 {duration} />
-    </div>
-  {/each}
 
 
 
@@ -69,10 +63,13 @@
           <div slot='body' class='body'>
             { signature.message } <br><br>
             <p>{ signature.message2 }</p>
+            <br>
             <a href={signature.link} class="link-text" target="_blank" rel="noopener noreferrer">
-              { signature.link }
+              <p> { signature.link }</p> </a>
+              <br>  <br>
+             <p> <img src={signature.image} alt="image here" > </p>
           </div>
-        
+      
         </CollapsibleCard>
       </li>
     { /each }
@@ -81,14 +78,41 @@
 <!-----------------collapsible card below---------------------------->
 </div>
 
-</div>
+
 
 <!--------------------------------------------css--------------------------------------------------->
 <style>
   #bg
   {
-    background-image: radial-gradient(circle,#df2e2e,#d67836,#e71506);
+    background: linear-gradient(-45deg, #973831,#882b25,#5C2420, #4d1d1a);
+	background-size: 400% 400%;
+	animation: gradient 10s ease-in-out infinite alternate;
+	height: 100vh;
   }
+  @keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+  }
+  *,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --color-primary: #FFEADB;
+  --color-secondary: #c46f64;
+  --color-tertiary: #b86d63;
+  --color-quaternary: #7c3930;
+  --color-quinary: #813f36;
+}
 
   .box {
       display: flex;
@@ -112,11 +136,11 @@
 		list-style: none;
 		padding: 0;
 		margin: 0 auto;
-		width:80%;
+		width:60%;
 		color:  #FFEADB;
 		font-size: 1.5rem;
     font-weight:bold;
-    background-color:#7F1D1D;
+    background-color:#6e1515;
     border-radius: 10px;
    
 	}
@@ -133,6 +157,9 @@
     background-color: #7F1D1D;
     border-radius: 10px;
 	}
+  .header:hover{
+    background-color: #d33a3a75;
+  }
 	
 
 	.names {
@@ -154,7 +181,7 @@
 	}
 	
 	.body {
-    padding: 0 0 0 0em;
+    padding: 0 0 3em 3em;
 	}
   .link {
 		background-color: var(--text);
@@ -176,7 +203,9 @@
 
 	.link-text:hover {
 		background-color: var(--left);
-		color: #dbdbc2;
+		color: #d3d386;
 	}
+
+  
 </style>
 
