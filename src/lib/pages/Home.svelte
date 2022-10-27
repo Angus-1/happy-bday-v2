@@ -7,7 +7,7 @@
   import { tick } from 'svelte'
     /**------------------------------ below script for falling confetti----------------------------- */
     export let toggleOnce = false
-    export const relative = true
+    export let relative = true
   
     let active = false
   
@@ -76,7 +76,7 @@
 >
   <div class="text-center">
     <div class="content">
-      <h2 class="text_shadows">Happy Bday Spooktacular Charles!🎃 </h2> 
+      <h2 class="text_shadows">Happy Bday Spooktacular Charles!🎃</h2> 
     </div>
   </div>
 </div>
@@ -85,28 +85,17 @@
  <!-- -------------------------------------css ------------------------------------------------------- -->
 <style>
   /*-----------------------confetti on click css -----------------------------*/
-.box {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      position: relative;
-      height: 100%;
-      width: 100%;
-   
-      background: none;
-      min-height: 100%;
-      overflow: hidden;
-    }
+
   
     .mover {
       position: absolute;
     }
   
-    
+  
 /*---------------------------------body css -----------------------------------------*/
   #bg {
     /* The image used background-image: url("/assets/images/background1.jpg"); */
-    background: linear-gradient(-45deg, #973831,#70201b,#5C2420, #411714);
+    background: linear-gradient(-45deg, #973831,#882b25,#5C2420, #4d1d1a);
 	background-size: 400% 400%;
 	animation: gradient 10s ease-in-out infinite alternate;
 	height: 100vh;
@@ -130,12 +119,13 @@
 }
 
 :root {
-  --color-primary: #d4bab3;
+  --color-primary: #FFEADB;
   --color-secondary: #c46f64;
-  --color-tertiary: #803f36;
-  --color-quaternary: rgb(90, 34, 27);
+  --color-tertiary: #b86d63;
+  --color-quaternary: #7c3930;
   --color-quinary: #813f36;
 }
+
 
 
 .content {
@@ -150,7 +140,7 @@
   font-family: bungee, sans-serif;
   font-weight: 200;
   text-transform: uppercase;
-  font-size: calc(1.2rem + 2.8vw);
+  font-size: calc(1.0rem + 2.5vw);
   text-align: center;
   margin: 0;
   color: var(--color-primary);
