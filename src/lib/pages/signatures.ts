@@ -2,8 +2,8 @@
     {
         name: 'Angle📐',
         message: "Happy birthday Gamer!!",
-        message2: "have a happy mf day! enjoy this mango" ,
-        link: 'http://www.republiquedesmangues.fr/',
+        message2: "have a happy mf day! enjoy this cat site" ,
+        link: 'https://cat-bounce.com/',
         image: 'monkey.gif'
     },
     {
