@@ -20,5 +20,12 @@
         link: '',
         image: 'chalrie.png'
     },
+    {
+        name: 'Bev',
+        message: "Happy Birfday dude!!!! Cheers to 22",
+        message2: "🐒" ,
+        link: '',
+        image: 'smile.png'
+    },
    
 ]
