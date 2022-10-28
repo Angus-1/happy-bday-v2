@@ -76,5 +76,12 @@
         link: '',
         image: 'snapchat.png'
     },
+    {
+        name: 'Justin',
+        message: "Happy Birthday Chewie,",
+        message2: "I hope you shrink a few inches this year because it's not fair for the rest of us." ,
+        link: '',
+        image: 'height.png'
+    },
    
 ]
