@@ -76,7 +76,7 @@
 >
   <div class="text-center">
     <div class="content">
-      <h2 class="text_shadows">Happy Spooktacular Bday Charles!🎃</h2> 
+      <h2 class="text_shadows">Happy Spooktacular Bday Charles!🎃🐒</h2> 
     </div>
   </div>
 </div>
@@ -139,7 +139,7 @@
   font-family: bungee, sans-serif;
   font-weight: 200;
   text-transform: uppercase;
-  font-size: calc(1.0rem + 2.5vw);
+  font-size: calc(1.2rem + 2.2vw);
   text-align: center;
   margin: 0;
   color: var(--color-primary);
