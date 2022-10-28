@@ -29,7 +29,7 @@
     },
     {
         name: 'Deanna',
-        message: "Happy Birthday stinky",
+        message: "Happy Birthday stinky!",
         message2: "" ,
         link: '',
         image: 'joker.png'
