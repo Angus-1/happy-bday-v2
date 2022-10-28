@@ -32,7 +32,7 @@
         message: "Happy Birthday stinky",
         message2: "" ,
         link: '',
-        image: 'smile.png'
+        image: 'joker.png'
     },
     {
         name: 'Christos',

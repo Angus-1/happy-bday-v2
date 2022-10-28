@@ -67,7 +67,7 @@
             <a href={signature.link} class="link-text" target="_blank" rel="noopener noreferrer">
               <p> { signature.link }</p> </a>
               <br>  <br>
-              <div class = "image "> <img src={signature.image} alt="image here" width=900 > </div>   
+              <div class = "image "> <img src={signature.image} alt="image here" width=700 > </div>   
                 <br>  <br>
           </div>
       
