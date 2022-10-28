@@ -123,6 +123,7 @@
   --color-tertiary: #b86d63;
   --color-quaternary: #7c3930;
   --color-quinary: #813f36;
+ 
 }
 
 
@@ -143,7 +144,7 @@
   text-align: center;
   margin: 0;
   color: var(--color-primary);
-  
+   padding:20px;
   animation: shadows 2.00s ease-in infinite, move 3.2s ease-in infinite;
 
   letter-spacing: 0.4rem;
