@@ -44,7 +44,7 @@
     {
         name: 'Yao',
         message: "happy birthday charlie. take it easy and hope you have a great one        ",
-        message2: "I hope you have a miraculously monkey birthday enjoy this goated MonkE cranking 90s" ,
+        message2: "" ,
         link: '',
         image: 'anime.png'
     },
