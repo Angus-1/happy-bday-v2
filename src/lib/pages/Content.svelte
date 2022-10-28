@@ -67,7 +67,8 @@
             <a href={signature.link} class="link-text" target="_blank" rel="noopener noreferrer">
               <p> { signature.link }</p> </a>
               <br>  <br>
-             <p> <img src={signature.image} alt="image here" > </p>
+              <div class = "image "> <img src={signature.image} alt="image here" width=900 > </div>   
+                <br>  <br>
           </div>
       
         </CollapsibleCard>
@@ -131,6 +132,7 @@
   
     
 
+    
     /*--------------------------------------------collpasible css --------------------------------------------*/
     ul {
 		list-style: none;
@@ -206,6 +208,16 @@
 		color: #d3d386;
 	}
 
-  
+  .body {
+    padding: 0 0 0 0em;
+    text-align: center;
+    display: block;
+    padding-top: 20px;
+	}
+  .image
+  {
+    display: flex;
+      justify-content: center;
+  }
 </style>
 
