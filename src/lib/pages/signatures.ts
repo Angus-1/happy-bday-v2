@@ -83,5 +83,11 @@
         link: '',
         image: 'height.png'
     },
-   
+    {
+        name: 'EthanThatOneKid',
+        message: "YOOOOOOOOOOOOOOOOOOOOOOO!",
+        message2: "Happy birthday Charlie!! Welcome to level 22!",
+        link: '',
+        image: "twrp.jpg"
+    },
 ]
