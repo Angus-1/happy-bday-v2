@@ -13,5 +13,12 @@
         link: '',
         image: 'potato.png'
     },
+    {
+        name: 'Jacob',
+        message: "",
+        message2: "" ,
+        link: '',
+        image: 'chalrie.png'
+    },
    
 ]
