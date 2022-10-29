@@ -90,4 +90,11 @@
         link: '',
         image: "twrp.jpg"
     },
+    {
+        name: 'Karni',
+        message: "Dear Charles Truman Taylor III,",
+        message2: "Rember my party and we pass lemon? I laff. Happ Birth.",
+        link: '',
+        image: "tracksuit.png"
+    },
 ]
