@@ -97,4 +97,11 @@
         link: '',
         image: "tracksuit.png"
     },
+    {
+        name: 'Diamond',
+        message: "Merry Birthday",
+        message2: "",
+        link: '',
+        image: "tumblr.png"
+    },
 ]
